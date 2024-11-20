@@ -28,7 +28,7 @@ This is a RESTful API-based quiz application that allows users to answer multipl
   - Retrieve the results for a specific quiz and user.
 
 ### Prerequisites
-- Node.js (v14 or higher) and npm (or Yarn) installed.
+- Node.js and npm installed.
 - Docker (optional for containerized setup).
 
 1. Clone the repository:
