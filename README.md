@@ -43,6 +43,6 @@ This is a RESTful API-based quiz application that allows users to answer multipl
 
 
 ### Improvements
-- **Unit and Integration tests**: Tested locally but unit and integration tests not included due to time constraints.
-- **Scoring Logic Enhancement**: The app currently lacks a robust scoring system. Enhancing the score calculation to update dynamically based on answers and ensuring it reflects correctly in the results would provide accurate feedback.
-- **Error Handling & Validation**: More comprehensive error handling and input validation could be added to ensure that quiz data and user submissions are consistent and properly validated.
+- **Scoring Logic Enhancement**: The app needs a better scoring system that updates based on answers and shows the correct score in the results for accurate feedback.
+- **Error Handling & Validation**: More robust error handling and input validation could be added.
+- **Responst Objects**: Could have a better definition for response objects that could be used throughout the application.
