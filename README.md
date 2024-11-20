@@ -32,14 +32,14 @@ This is a RESTful API-based quiz application that allows users to answer multipl
 - Docker (optional for containerized setup).
 
 1. Clone the repository:
-   git clone https://github.com/themagicalpanda/quiz-app-backend.git
-   cd quiz_app_backend
-   npm install
-   npm run start
+   - git clone https://github.com/themagicalpanda/quiz-app-backend.git
+   - cd quiz_app_backend
+   - npm install
+   - npm run start
 
 2. Docker Setup
-   docker-compose build
-   docker-compose up
+   - docker-compose build
+   - docker-compose up
 
 
 ### Improvements
