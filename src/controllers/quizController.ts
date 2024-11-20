@@ -7,10 +7,11 @@ import {
   getResultByQuizIdAndUserId,
 } from "../db/db";
 import { Answer } from "../models/answer";
+import { Question } from "../models/question";
 
 // Create a new quiz
 export const createQuizController = (req: Request, res: Response): Response => {
-  const { title, questions }: { title: string; questions: any[] } = req.body;
+  const { title, questions }: { title: string; questions: Question[] } = req.body;
 
   if (!title || !questions || questions.length === 0) {
     return res.status(400).json({
